@@ -1,0 +1,11 @@
+[database]
+host = "127.0.0.1"
+port = 3306
+username = "root"
+password = "lws19951102"
+dbname = "meeting_system"
+charset = "utf8"
+
+[server]
+address = "127.0.0.1"
+port = 8088

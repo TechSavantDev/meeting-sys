@@ -1,0 +1,9 @@
+services:
+  meeting-frontend:
+    build: .
+    ports:
+      - "9000:9000"
+    volumes:
+      - ../meeting-sys:/app
+    stdin_open: true
+    tty: true
