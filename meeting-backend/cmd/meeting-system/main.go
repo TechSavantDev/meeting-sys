@@ -9,3 +9,5 @@ func main() {
 	database.DB()
 	server.New().Run()
 }
+
+// test
